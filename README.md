@@ -2,6 +2,9 @@
 Spotify Music Recommender
 This is a Python project that uses the Spotify API and machine learning to provide personalized music recommendations. The system analyzes a user's listening habits and identifies patterns in their music preferences to provide music suggestions that match their unique tastes.
 
+![image](https://user-images.githubusercontent.com/64073594/233243404-c39775f8-f2c7-4d28-ad68-f44df66bade8.png)
+
+
 # Installation
 Before running the project, you need to install the required packages. You can do this using pip:
 
