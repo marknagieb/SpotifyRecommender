@@ -1,6 +1,10 @@
 # SpotifyRecommender
-Spotify Music Recommender
-This is a Python project that uses the Spotify API and machine learning to provide personalized music recommendations. The system analyzes a user's listening habits and identifies patterns in their music preferences to provide music suggestions that match their unique tastes.
+## Spotify Music Recommender
+This is a Python project that uses machine learning and the Spotify API to provide personalized music recommendations. The system analyzes a user's listening habits and identifies patterns in their music preferences to provide music suggestions that match their unique tastes.
+
+The project uses the K-Nearest Neighbors algorithm (KNN) to predict which songs a user is most likely to enjoy. The algorithm is trained using the user's top tracks, which are retrieved from the Spotify API. The data is preprocessed and fed into the algorithm using the Surprise library, which provides a clean and easy-to-use API for collaborative filtering and recommendation algorithms.
+
+The Spotify API is used to retrieve additional information about the recommended songs, such as artist names, album titles, and track popularity. This information is displayed in a themed tkinter window with Spotify colors, which also includes a hyperlink to the song's page on Spotify's website and the predicted rating.
 
 ![image](https://user-images.githubusercontent.com/64073594/233243404-c39775f8-f2c7-4d28-ad68-f44df66bade8.png)
 
